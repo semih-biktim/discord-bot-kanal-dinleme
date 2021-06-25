@@ -12,7 +12,7 @@ app.set('views','./src');
 app.set('view engine','ejs');
 app.use(express.static(__dirname + '/src'));
 server.listen(3000);
-client.login("");
+client.login("token");
 var kanal_id;
 //<---------------Ayarlar----------------->
 
