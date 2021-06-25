@@ -26,10 +26,6 @@ io.on("connection",(socket) => {
 		if(!client.channels.cache.array().find(c=>c.id == kanal_id)) return false;
 		client.channels.cache.get(kanal_id).send(data);
 	});
-
-	socket.on("channel_change",data => {
-		kanal_id = data;
-	});
 });
 
 client.on("message",message=>{	
