@@ -1,0 +1,17 @@
+#messages { 
+	width: 600px;
+	height: 250px;
+	background: gray;
+	overflow: auto;
+	font-family: Grippins;
+}
+
+#message_box {
+	width: 550px;
+	background: gray;
+	font-family: Grippins;
+}
+
+#message_button {
+	width: 43px;
+}

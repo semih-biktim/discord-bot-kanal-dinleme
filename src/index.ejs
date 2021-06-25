@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title><%= channel_name %></title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="https://seeklogo.com/images/D/discord-icon-new-2021-logo-09772BF096-seeklogo.com.png" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js" integrity="sha512-iZIBSs+gDyTH0ZhUem9eQ1t4DcEn2B9lHxfRMeGQhyNdSUz+rb+5A3ummX6DQTOIs1XK0gOteOg/LPtSo9VJ+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+	<div id="messages"></div>
+	<input type="text" id="message_box"><button id="message_button">></button>
+	<script src="worker.js"></script>
+</body>
+</html>
